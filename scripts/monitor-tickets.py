@@ -32,7 +32,7 @@ nazwa_pliku = f"tickets_{teraz.strftime('%Y%m%d_%H%M%S')}.json"
 dane_bilety['timestamp'] = teraz.isoformat() + 'Z'
 
 # 8. ZAPISUJEMY DANE DO PLIKU JSON
-with open(f"data/tickets", 'w') as plik:
+with open(f"data/{nazwa_pliku}", 'w') as plik:
     json.dump(dane_bilety, plik, indent=2)
 
 # 9. POKAZUJEMY CO MAMY
