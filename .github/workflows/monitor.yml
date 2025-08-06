@@ -3,7 +3,7 @@ name: Monitor Wisła Kraków Ticket Sales
 on:
   schedule:
     # Uruchamia co minutę
-    - cron: '*/5 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 
 jobs:
