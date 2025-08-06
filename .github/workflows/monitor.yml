@@ -28,7 +28,7 @@ jobs:
       run: mkdir -p data
       
     - name: Run ticket monitor
-      run: python scripts/monitor_tickets.py
+      run: python scripts/monitor-tickets.py
       
     - name: Commit and push changes
       run: |
